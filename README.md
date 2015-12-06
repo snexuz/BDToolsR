@@ -4,15 +4,15 @@
 - Website: http://www.idealyzt.com/
 - Last update: 2015/12/06 
 
-# R function
+## R function
 - API: http://taibif.org.tw/BDTools/
 - 使用說明：transl(sourceSystem, targetSystem, x, y)
 - 參數說明：
   - sourceSystem: 來源坐標系統
   - targetSystem: 欲轉換的座標系統
-    - 1: WGS 84 經緯度
-    - 2: TWD 67 經緯度
-    - 3: TWD 97 經緯度
+    - 1: WGS84 經緯度
+    - 2: TWD67 經緯度
+    - 3: TWD97 經緯度
     - 4: TWD97/ 澎湖地區
     - 5: TWD97/ 臺灣地區
     - 6: TWD67/ 澎湖地區
