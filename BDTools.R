@@ -12,7 +12,8 @@ transl <- function(sourceSystem, targetSystem, x, y){
                '&destination=', targetSystem,
                '&x=', x,'&y=', y, sep='')
   
-  result <- read_html(url) %>% html_nodes(xpath = '//*[@id="body"]/text()[2]') %>% 
+  result <- read_html(url) %>%
+    html_nodes(xpath = '//*[@id="body"]/text()[2]') %>% 
     as.character() %>% strsplit(' ') %>% unlist() 
   
   result <- data.frame(lon = result[3], lat = result[4])
