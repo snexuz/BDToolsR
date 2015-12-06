@@ -1,7 +1,8 @@
-# BDToolsR  TaiBIF 臺灣生物多樣性資訊機構 - 地理分布線上坐標轉換 R function
-> Contributer: Rafe. C. H. Liu (snexuz@gmail.com)
-> Website: http://www.idealyzt.com/
-> Last update: 2015/12/06 
+# BDToolsR  
+## TaiBIF 臺灣生物多樣性資訊機構 - 地理分布線上坐標轉換 R function
+- Contributer: Rafe. C. H. Liu (snexuz@gmail.com)
+- Website: http://www.idealyzt.com/
+- Last update: 2015/12/06 
 
 # TaiBIF 臺灣生物多樣性資訊機構 - 地理分布線上坐標轉換
 API: http://taibif.org.tw/BDTools/
