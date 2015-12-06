@@ -4,7 +4,7 @@
 # Last update: 2015/12/06
 
 require('rvest')
-require('dplyr')
+require('magrittr')
 
 transl <- function(sourceSystem, targetSystem, x, y){
   url <- paste('http://taibif.org.tw/BDTools/proj4/convert.php?',
