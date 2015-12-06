@@ -5,7 +5,7 @@
 - Last update: 2015/12/06 
 
 ## R function
-- API: http://taibif.org.tw/BDTools/
+- API URL： http://taibif.org.tw/BDTools/
 - 使用說明：transl(sourceSystem, targetSystem, x, y)
 - 參數說明：
   - sourceSystem: 來源坐標系統
@@ -19,6 +19,6 @@
     - 7: TWD67/ 臺灣地區
   - x: X 坐標 lon 東西經度, longitude E
   - y: Y 坐標 lat 南北緯度, latitude N
-- 傳回：dataframe
+- 回傳：轉換後的經緯度 dataframe
 
 transl(5, 1, 123456, 2234567)
